@@ -80,4 +80,4 @@ return ( <div className="min-h-screen bg-gray-50 text-gray-900"> <header classNa
 
 // --- Helpers --- function truncate(text, n) { if (!text) return ''; return text.length > n ? text.slice(0, n - 1) + '…' : text; }
 
-function formatDate(iso) { try { if (!iso) return ''; const d = new Date(iso); return d.toLocaleString('ar-MA', { year: 'numeric', month: 'short', day: 'numeric' }); } catch (e) { return iso; } }
+function formatDate(iso) fuck all
